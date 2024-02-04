@@ -8,12 +8,11 @@ const server = http.createServer(function listener() {
   console.log("Request Recieved");
 });
 
-//Starts the server that we juts created above
+//Starts the server that we just created above
 server.listen(PORT, function exec() {
   console.log(`Server is up and running on:${PORT}`);
 });
 
 //Hi i have made some changes over here
 
-console;
-log("Hi this is the change introduced in feature-1");
+console.log("Hi this is the change introduced in main");
